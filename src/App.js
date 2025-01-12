@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
      
-     <BrowserRouter>
+     <HashRouter>
         <Routes>
           <Route  index   element={<Home/>}/>
           <Route path="/ProductsEcommercePage"   element={<ProductsEcommercePage/>}/>
@@ -34,7 +34,7 @@ function App() {
           
         </Routes>
 
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
